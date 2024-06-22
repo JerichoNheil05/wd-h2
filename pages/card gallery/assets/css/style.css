@@ -1,0 +1,550 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headermain {
+    background-color: #000000;
+    color: white;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.staticcards {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.calling-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.card-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.card-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.card-contact {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
+
+.card2-btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.card2-btn:hover {
+    background-color: #777;
+}
+
+.card2-staticcards {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card2-calling-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.card2-avatar {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card2-name {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card2-title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.card2-contact {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
+
+.calling-card-3 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #2b0e0e;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-image: linear-gradient(to bottom, #07daf6, #101799);
+    overflow: hidden; 
+}
+
+.card-avatar3 {
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.card-name3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-title3 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.card-contact3 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #050000;
+}
+
+.calling-card-4 {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #2b0e0e;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    color: #000000;
+}
+
+.card-title4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-name4 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.card-contact4 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.calling-card5 {
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding-left: 10px;
+}
+
+.profile5 {
+    border-radius: 3px ;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px; 
+}
+
+.text6 {
+    flex: ; /* Takes remaining space */
+}
+
+.text6 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text6 h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.text6 p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+    padding-right: 10px;
+}
+
+.animatedcards {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card6-btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card6-btn:hover {
+    background-color: #812424;
+}
+
+.card6-staticcards {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card6-calling-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    transform: scale(0.8);
+    animation: popup 0.5s forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card6-calling-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card6-avatar {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card6-name {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card6-title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.card6-contact {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
+
+@keyframes popup {
+    100% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.calling-card-7 {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.card-name7, .card-title7, .card-contact7 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: popUp 0.5s forwards ease-out infinite alternate;
+}
+
+.card-name7 {
+    animation: moveUp 1s forwards ease-out infinite alternate;
+    animation-delay: 0.2s;
+}
+
+.card-title7 {
+    animation-delay: 0.4s;
+}
+
+.card-contact7 {
+    animation-delay: 0.6s;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes popUp {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.calling-card-8 {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.card-avatar8 {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+    animation: shake 1s infinite;
+}
+
+.card-name8, .card-title8, .card-contact8 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: popUp 0.5s forwards ease-out;
+}
+
+.card-title8 {
+    animation-delay: 0.2s;
+}
+
+.card-name8 {
+    animation-delay: 0.4s;
+}
+
+.card-contact8 {
+    animation-delay: 0.6s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes popUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.calling-card-9 {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    animation: colorChange 5s infinite;
+    overflow: hidden;
+}
+
+.card-avatar9 {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.card-name9, .card-title9, .card-contact9 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: popUp 0.5s forwards ease-out;
+}
+
+.card-name9 {
+    animation: slideUp 1s forwards ease-out;
+    animation-delay: 0.2s;
+}
+
+.card-title9 {
+    animation-delay: 0.4s;
+}
+
+.card-contact9 {
+    animation-delay: 0.6s;
+}
+
+@keyframes colorChange {
+    0% { background-color: orange; }
+    25% { background-color: rgb(205, 199, 16); }
+    50% { background-color: pink; }
+    75% { background-color: rgb(132, 181, 26); }
+    100% { background-color: orange; }
+}
+
+@keyframes popUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.calling-card10 {
+    display: flex;
+    width: 370px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding-left: 10px;
+}
+
+.profile10 {
+    margin-right: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 3px;
+    display: block;
+    animation: popUp 0.5s forwards;
+}
+
+.text10 h2, .text10 h3, .text10 p {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards ease-out;
+}
+
+.text10 h2 {
+    animation-delay: 0.5s;
+}
+
+.text10 h3 {
+    animation-delay: 0.7s;
+}
+
+.text10 p {
+    animation-delay: 0.9s;
+}
+
+@keyframes popUp {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
