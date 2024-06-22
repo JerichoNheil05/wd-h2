@@ -8,7 +8,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- This project is a dynamic collection featuring both animated hero pages and static cards. It showcases various heroes with engaging animations and detailed static information cards. Each hero page is designed to highlight unique attributes and backgrounds through visually appealing animations, while the static cards provide comprehensive details about each character. The project aims to blend creativity with functionality, offering users an immersive experience where they can explore both animated narratives and concise information in a cohesive digital environment.
+ This project is a dynamic collection featuring both animated hero pages and static cards.
 </div>
 
 <br />
